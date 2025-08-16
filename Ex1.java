@@ -19,6 +19,9 @@ public class Ex1{
 
         //Button
         JButton button = new JButton("Clique aqui");
+        /*
+         * Método para trocar a cor de fundo do painel principal
+         */
         button.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent event) {
                 panel.setBackground(Color.YELLOW);
